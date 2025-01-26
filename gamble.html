@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="gamble.css">
+	<title>Gamble House</title>
+</head>
+<body>
+	<div id="container">
+		<h1>Gamble House</h1>
+		<h3>Where luck and Chance prevails💵🔔</h3>
+		<div id="dice">
+			<h2>Dice Game</h2>
+			<h5 id="winresult"></h5>
+			<h6>Ready to roll</h6>
+			<label for="numOfDice">No of Dice: </label>
+			<input type="number" id="numOfDice" min="2" max="6" value="2">
+			<label for="prediction">Prediction: </label>
+			<input type="text" id="prediction" placeholder="predict btw 1 - 6">
+			<h5 id="diceNum"></h5>
+			<h5 id="pred"></h5>
+			<button id="roller" onclick="diceRoller()">Roll the Dice</button>
+			<div id="result"></div>
+			<div id="resultImages"></div>
+		</div>
+		<div id="slot">
+			<h2>Slot Game</h2>
+			<h5 id="winner"></h5>
+			<h6>Ready to roll</h6>
+			<button id="slotRoller" onclick="slotRoller()">Roll Slot</button>
+			<div id="slotImages"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="gamble.js"></script>
+</body>
+</html>

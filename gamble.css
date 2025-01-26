@@ -1,0 +1,78 @@
+#container{
+	font-family: serif;
+	font-size: 1.5rem;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 15px black;
+}
+#dice{
+	background-color: lightgray;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px darkgrey;
+}
+#dice input{
+	font-size: 1.5rem;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+#dice label{
+	font-size: 1.7rem;
+}
+#dice h6{
+	font-size: 1.5rem;
+}
+#dice button{
+	font-size: 1.5em;
+	background-color: limegreen;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+#dice button:hover{
+	background-color: orangered;
+}
+#resultImages img{
+	margin: 5px;
+	width: 150px;
+	border-radius: 10px;
+}
+#result{
+	margin: 10px;
+}
+#slot{
+	background-color: burlywood;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px darkgrey;
+}
+#slotRoller{
+	font-size: 1.5em;
+	background-color: limegreen;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+#slotImages img{
+	margin: 5px;
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+}
+#slotRoller:hover{
+	background-color: orangered;
+}
+#slot label{
+	font-size: 1.7rem;
+}
+#slot h6{
+	font-size: 2rem;
+}
+#winner{
+	background-color: palevioletred;
+}
